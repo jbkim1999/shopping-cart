@@ -1,4 +1,4 @@
-# Shop League of Legends champions!
+# Shop champions from the League of Legends!
 
 Done as part of The Odin Project.
 
