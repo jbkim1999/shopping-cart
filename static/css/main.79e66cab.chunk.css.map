@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,IACE,YAAa,CACb,4BAA6B,CAC7B,cACF","file":"main.79e66cab.chunk.css","sourcesContent":["nav {\n  display: flex;\n  justify-content: space-around;\n  min-height: 5vh;\n}"]}
