@@ -33,9 +33,9 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shopping" element={<Shopping handleSubmit={updateCart}/>} />
-        <Route path="/cart" element={<Cart cartItems={cartItems} handleSubmit={removeFromCart}/>} />
+        <Route path="/shopping-cart/" element={<Home />} />
+        <Route path="/shopping-cart/shopping" element={<Shopping handleSubmit={updateCart}/>} />
+        <Route path="/shopping-cart/cart" element={<Cart cartItems={cartItems} handleSubmit={removeFromCart}/>} />
       </Routes>
     </Router>
   );
