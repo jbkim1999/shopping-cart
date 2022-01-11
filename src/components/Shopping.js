@@ -5,7 +5,7 @@ function Shopping(props) {
   const [champions, setChampions] = useState([]);
 
   const fetchChampions = async () => {
-    const response = await fetch("http://ddragon.leagueoflegends.com/cdn/9.3.1/data/en_US/champion.json");
+    const response = await fetch("https://ddragon.leagueoflegends.com/cdn/9.3.1/data/en_US/champion.json");
     const championsData = await response.json();
 
     const championsTemp = [];
